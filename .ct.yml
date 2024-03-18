@@ -1,7 +1,7 @@
 # See: https://github.com/helm/chart-testing
 target-branch: develop
 chart-dirs: 'charts'
-check-version-increment: false
+check-version-increment: true
 validate-maintainers: false
 charts-repos:
   - mockserver=https://www.mock-server.com
